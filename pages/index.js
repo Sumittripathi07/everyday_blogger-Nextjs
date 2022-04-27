@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Blog from './blog';
 
 export default function Home() {
   return (
@@ -24,32 +25,7 @@ export default function Home() {
         <div className={styles.grid}>
 
           <h2>Recent Blogs</h2>
-          <div className={styles.blogItems}>
-          <a className={styles.card}>
-            <h3>Helllooooo Head</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempora voluptas aspernatur</p>
-          </a>
-          <a className={styles.card}>
-            <h3>Helllooooo Head</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempora voluptas aspernatur</p>
-          </a>
-          <a className={styles.card}>
-            <h3>Helllooooo Head</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempora voluptas aspernatur</p>
-          </a>
-          <a className={styles.card}>
-            <h3>Helllooooo Head</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempora voluptas aspernatur</p>
-          </a>
-          <a className={styles.card}>
-            <h3>Helllooooo Head</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempora voluptas aspernatur</p>
-          </a>
-          <a className={styles.card}>
-            <h3>Helllooooo Head</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempora voluptas aspernatur</p>
-          </a>
-          </div>
+          <Blog/>
           </div>
       </main>
 
